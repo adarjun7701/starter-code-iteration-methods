@@ -43,7 +43,7 @@ const matchedCompanyUsers = users.some(user => companyPropertyLookup(user.compan
 
 
 // Kata 4
-const ageOver38 = users.find( function (user) {
+const firstUserOver38 = users.find( function (user) {
     return user.age > 38
 })
 
@@ -68,7 +68,7 @@ const fugiatUsers = users.filter(user => user.tags.includes("fugiat")).map(user 
 printKata(1, active)
 printKata(2, emails)
 printKata(3, matchedCompanyUsers)
-printKata(4, ageOver38)
+printKata(4, firstUserOver38)
 printKata(5, activeUsersOver38)
 printKata(6, zencoUsers)
 printKata(7, fugiatUsers)
